@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/volume.ico</file>
+        <file>images/pin_off.ico</file>
+        <file>images/pin_on.ico</file>
+        <file>images/mute.ico</file>
+        <file>images/default_cover.jpg</file>
+        <file>images/play.ico</file>
+        <file>images/pause.ico</file>
+        <file>images/next.ico</file>
+        <file>images/pre.ico</file>
+        <file>images/pause_w.png</file>
+        <file>images/play_w.png</file>
+        <file>images/next_w.png</file>
+        <file>images/pre_w.png</file>
+        <file>images/loop.png</file>
+        <file>images/random.png</file>
+        <file>images/sequence.png</file>
+        <file>images/singleLoop.png</file>
+        <file>images/extend.ico</file>
+        <file>images/inPlay.ico</file>
+        <file>images/ICON_right.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExtendList</class>
+ <widget class="QWidget" name="ExtendList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>212</width>
+    <height>444</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#ExtendList{
+	background-color: rgb(50,50,50);
+}
+
+/*ScrollBar*/
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:0px; 
+    padding-bottom:0px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-line:vertical
+{
+    height:0px;width:8px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical
+{
+    height:0px;width:8px;
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical:hover 
+{
+    height:9px;width:8px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical:hover
+{
+    height:9px;width:8px;
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>175</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget{
+	color:white;
+	font-size:13px;
+	background-color: rgba(88,90,76,100);
+	border: 1px solid black;
+}
+/*
+QListWidget::item{
+	border:none;/*去掉虚线框 not outline
+}
+*/</string>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
